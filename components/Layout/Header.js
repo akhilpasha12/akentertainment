@@ -19,7 +19,7 @@ function MobileNav({ open, setOpen }) {
               <Link href={"/"} legacyBehavior>
                 <a
                   className={` block transition md:px-4 astro-ES6RJE63 ${
-                    currentRoute === "#"
+                    currentRoute === "/"
                       ? "text-[#ff0000] "
                       : "  text-[#fff]"
                   }`}
