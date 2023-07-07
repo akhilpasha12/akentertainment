@@ -34,7 +34,7 @@ function MobileNav({ open, setOpen }) {
               <Link href={"/services"} legacyBehavior>
                 <a
                   className={` block transition md:px-4 astro-ES6RJE63 ${
-                    currentRoute === "#" ? " text-[#ff0000] " : " text-[#fff]"
+                    currentRoute === "/services" ? " text-[#ff0000] " : " text-[#fff]"
                   }`}
                 >
                   <span className="astro-ES6RJE63 text-base  font-bold uppercase">
